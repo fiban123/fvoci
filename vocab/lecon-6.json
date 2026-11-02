@@ -1,0 +1,4004 @@
+{
+  "schema_version": 1,
+  "id": "school-lecon-06",
+  "revision": 2,
+  "title": "Vocabulaire leçon 6 : épreuve 10",
+  "languages": {
+    "prompt": "de",
+    "answer": "fr"
+  },
+  "entries": [
+    {
+      "id": "body",
+      "type": "noun",
+      "de": {
+        "prompt": "der Körper",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "der Körper",
+              "Körper"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "body",
+          "forms": {
+            "m_sg": [
+              "le corps"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 1,
+        "row": "1"
+      }
+    },
+    {
+      "id": "head",
+      "type": "noun",
+      "de": {
+        "prompt": "der Kopf",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "der Kopf",
+              "Kopf"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "head",
+          "forms": {
+            "f_sg": [
+              "la tête"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 1,
+        "row": "2"
+      }
+    },
+    {
+      "id": "nose",
+      "type": "noun",
+      "de": {
+        "prompt": "die Nase",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "die Nase",
+              "Nase"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "nose",
+          "forms": {
+            "m_sg": [
+              "le nez"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 1,
+        "row": "3"
+      }
+    },
+    {
+      "id": "eye",
+      "type": "noun",
+      "de": {
+        "prompt": "das Auge / die Augen",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "das Auge",
+              "Auge",
+              "die Augen",
+              "Augen"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "eye",
+          "forms": {
+            "m_sg": [
+              "l’œil"
+            ],
+            "m_pl": [
+              "les yeux"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 1,
+        "row": "4"
+      }
+    },
+    {
+      "id": "ear",
+      "type": "noun",
+      "de": {
+        "prompt": "das Ohr",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "das Ohr",
+              "Ohr"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "ear",
+          "forms": {
+            "f_sg": [
+              "l’oreille"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 1,
+        "row": "5"
+      }
+    },
+    {
+      "id": "mouth",
+      "type": "noun",
+      "de": {
+        "prompt": "der Mund",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "der Mund",
+              "Mund"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "mouth",
+          "forms": {
+            "f_sg": [
+              "la bouche"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 1,
+        "row": "6"
+      }
+    },
+    {
+      "id": "tooth",
+      "type": "noun",
+      "de": {
+        "prompt": "der Zahn",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "der Zahn",
+              "Zahn"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "tooth",
+          "forms": {
+            "f_sg": [
+              "la dent"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 1,
+        "row": "7"
+      }
+    },
+    {
+      "id": "tongue",
+      "type": "noun",
+      "de": {
+        "prompt": "die Zunge",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "die Zunge",
+              "Zunge"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "tongue",
+          "forms": {
+            "f_sg": [
+              "la langue"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 1,
+        "row": "8"
+      }
+    },
+    {
+      "id": "neck",
+      "type": "noun",
+      "de": {
+        "prompt": "der Hals (von aussen)",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "der Hals (von aussen)",
+              "Hals (von aussen)"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "neck",
+          "forms": {
+            "m_sg": [
+              "le cou"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 1,
+        "row": "9"
+      }
+    },
+    {
+      "id": "throat",
+      "type": "noun",
+      "de": {
+        "prompt": "der Hals (von innen) / der Rachen",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "der Hals (von innen)",
+              "Hals (von innen)",
+              "der Rachen",
+              "Rachen"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "throat",
+          "forms": {
+            "f_sg": [
+              "la gorge"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 1,
+        "row": "10"
+      }
+    },
+    {
+      "id": "lip",
+      "type": "noun",
+      "de": {
+        "prompt": "die Lippe",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "die Lippe",
+              "Lippe"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "lip",
+          "forms": {
+            "f_sg": [
+              "la lèvre"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 1,
+        "row": "11"
+      }
+    },
+    {
+      "id": "brain",
+      "type": "noun",
+      "de": {
+        "prompt": "das Gehirn",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "das Gehirn",
+              "Gehirn"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "brain",
+          "forms": {
+            "m_sg": [
+              "le cerveau"
+            ],
+            "m_pl": [
+              "les cerveaux"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 1,
+        "row": "12"
+      }
+    },
+    {
+      "id": "chest",
+      "type": "noun",
+      "de": {
+        "prompt": "die Brust / der Busen",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "die Brust",
+              "Brust",
+              "der Busen",
+              "Busen"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "chest",
+          "forms": {
+            "f_sg": [
+              "la poitrine"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 1,
+        "row": "13"
+      }
+    },
+    {
+      "id": "belly",
+      "type": "noun",
+      "de": {
+        "prompt": "der Bauch",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "der Bauch",
+              "Bauch"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "belly",
+          "forms": {
+            "m_sg": [
+              "le ventre"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 1,
+        "row": "14"
+      }
+    },
+    {
+      "id": "back",
+      "type": "noun",
+      "de": {
+        "prompt": "der Rücken",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "der Rücken",
+              "Rücken"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "back",
+          "forms": {
+            "m_sg": [
+              "le dos"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 1,
+        "row": "15"
+      }
+    },
+    {
+      "id": "shoulder",
+      "type": "noun",
+      "de": {
+        "prompt": "die Schulter",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "die Schulter",
+              "Schulter"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "shoulder",
+          "forms": {
+            "f_sg": [
+              "l’épaule"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 1,
+        "row": "16"
+      }
+    },
+    {
+      "id": "bone",
+      "type": "noun",
+      "de": {
+        "prompt": "der Knochen",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "der Knochen",
+              "Knochen"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "bone",
+          "forms": {
+            "m_sg": [
+              "l’os"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 1,
+        "row": "17"
+      }
+    },
+    {
+      "id": "arm",
+      "type": "noun",
+      "de": {
+        "prompt": "der Arm",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "der Arm",
+              "Arm"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "arm",
+          "forms": {
+            "m_sg": [
+              "le bras"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 1,
+        "row": "18"
+      }
+    },
+    {
+      "id": "hand",
+      "type": "noun",
+      "de": {
+        "prompt": "die Hand",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "die Hand",
+              "Hand"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "hand",
+          "forms": {
+            "f_sg": [
+              "la main"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 1,
+        "row": "19"
+      }
+    },
+    {
+      "id": "finger",
+      "type": "noun",
+      "de": {
+        "prompt": "der Finger",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "der Finger",
+              "Finger"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "finger",
+          "forms": {
+            "m_sg": [
+              "le doigt"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 1,
+        "row": "20"
+      }
+    },
+    {
+      "id": "fist",
+      "type": "noun",
+      "de": {
+        "prompt": "die Faust",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "die Faust",
+              "Faust"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "fist",
+          "forms": {
+            "m_sg": [
+              "le poing"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 1,
+        "row": "21"
+      }
+    },
+    {
+      "id": "leg",
+      "type": "noun",
+      "de": {
+        "prompt": "das Bein",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "das Bein",
+              "Bein"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "leg",
+          "forms": {
+            "f_sg": [
+              "la jambe"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 1,
+        "row": "22"
+      }
+    },
+    {
+      "id": "knee",
+      "type": "noun",
+      "de": {
+        "prompt": "das Knie",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "das Knie",
+              "Knie"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "knee",
+          "forms": {
+            "m_sg": [
+              "le genou"
+            ],
+            "m_pl": [
+              "les genoux"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 1,
+        "row": "23"
+      }
+    },
+    {
+      "id": "foot",
+      "type": "noun",
+      "de": {
+        "prompt": "der Fuss",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "der Fuss",
+              "Fuss"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "foot",
+          "forms": {
+            "m_sg": [
+              "le pied"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 1,
+        "row": "24"
+      }
+    },
+    {
+      "id": "blood",
+      "type": "noun",
+      "de": {
+        "prompt": "das Blut",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "das Blut",
+              "Blut"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "blood",
+          "forms": {
+            "m_sg": [
+              "le sang"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 1,
+        "row": "25"
+      },
+      "notes": "Mass noun in the source sense; no plural is required. The same vocabulary recurs in source row 40.",
+      "related_entry_ids": [
+        "blood-row40"
+      ]
+    },
+    {
+      "id": "heart",
+      "type": "noun",
+      "de": {
+        "prompt": "das Herz",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "das Herz",
+              "Herz"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "heart",
+          "forms": {
+            "m_sg": [
+              "le cœur"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 1,
+        "row": "26"
+      }
+    },
+    {
+      "id": "skin",
+      "type": "noun",
+      "de": {
+        "prompt": "die Haut",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "die Haut",
+              "Haut"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "skin",
+          "forms": {
+            "f_sg": [
+              "la peau"
+            ],
+            "f_pl": [
+              "les peaux"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 1,
+        "row": "27"
+      }
+    },
+    {
+      "id": "illness",
+      "type": "noun",
+      "de": {
+        "prompt": "die Krankheit",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "die Krankheit",
+              "Krankheit"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "illness",
+          "forms": {
+            "f_sg": [
+              "la maladie"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 1,
+        "row": "28"
+      },
+      "related_entry_ids": [
+        "ill"
+      ],
+      "notes": "Split from source row 28, preserving its distinct parts of speech or constructions."
+    },
+    {
+      "id": "ill",
+      "type": "adjective",
+      "de": {
+        "prompt": "krank",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "krank"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "ill",
+          "forms": {
+            "m_sg": [
+              "malade"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 1,
+        "row": "28"
+      },
+      "related_entry_ids": [
+        "illness"
+      ],
+      "notes": "Split from source row 28, preserving its distinct parts of speech or constructions."
+    },
+    {
+      "id": "health",
+      "type": "noun",
+      "de": {
+        "prompt": "die Gesundheit",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "die Gesundheit",
+              "Gesundheit"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "health",
+          "forms": {
+            "f_sg": [
+              "la santé"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 1,
+        "row": "29"
+      },
+      "notes": "Split from source row 29, preserving its distinct parts of speech or constructions. Mass noun in the source sense; no plural is required.",
+      "related_entry_ids": [
+        "healthy"
+      ]
+    },
+    {
+      "id": "healthy",
+      "type": "adjective",
+      "de": {
+        "prompt": "gesund",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "gesund"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "healthy",
+          "forms": {
+            "m_sg": [
+              "sain"
+            ],
+            "f_sg": [
+              "saine"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 1,
+        "row": "29"
+      },
+      "related_entry_ids": [
+        "health"
+      ],
+      "notes": "Split from source row 29, preserving its distinct parts of speech or constructions."
+    },
+    {
+      "id": "feel",
+      "type": "verb",
+      "de": {
+        "prompt": "sich fühlen",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "sich fühlen"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "feel",
+          "forms": {
+            "infinitive": [
+              "se sentir"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 1,
+        "row": "30"
+      }
+    },
+    {
+      "id": "do-well",
+      "type": "verb",
+      "de": {
+        "prompt": "gut gehen",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "gut gehen"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "do-well",
+          "forms": {
+            "infinitive": [
+              "aller bien"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 1,
+        "row": "31"
+      }
+    },
+    {
+      "id": "physical",
+      "type": "adjective",
+      "de": {
+        "prompt": "körperlich",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "körperlich"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "physical",
+          "forms": {
+            "m_sg": [
+              "physique"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "32"
+      }
+    },
+    {
+      "id": "mental",
+      "type": "adjective",
+      "de": {
+        "prompt": "geistig / mental",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "geistig",
+              "mental"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "mental",
+          "forms": {
+            "m_sg": [
+              "mental"
+            ],
+            "f_sg": [
+              "mentale"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "33"
+      }
+    },
+    {
+      "id": "recover",
+      "type": "verb",
+      "de": {
+        "prompt": "gesund werden",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "gesund werden"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "recover",
+          "forms": {
+            "infinitive": [
+              "guérir"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "34"
+      }
+    },
+    {
+      "id": "strength",
+      "type": "noun",
+      "de": {
+        "prompt": "die Kraft",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "die Kraft",
+              "Kraft"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "strength",
+          "forms": {
+            "f_sg": [
+              "la force"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "35"
+      },
+      "notes": "Split from source row 35, preserving its distinct parts of speech or constructions. The visible source reads “die Krat”; corrected to “die Kraft”, as confirmed by Duden: https://www.duden.de/rechtschreibung/Kraft_Energie.",
+      "related_entry_ids": [
+        "strong"
+      ]
+    },
+    {
+      "id": "strong",
+      "type": "adjective",
+      "de": {
+        "prompt": "stark / kräftig",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "stark",
+              "kräftig"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "strong",
+          "forms": {
+            "m_sg": [
+              "fort"
+            ],
+            "f_sg": [
+              "forte"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "35"
+      },
+      "related_entry_ids": [
+        "strength"
+      ],
+      "notes": "Split from source row 35, preserving its distinct parts of speech or constructions."
+    },
+    {
+      "id": "pain",
+      "type": "noun",
+      "de": {
+        "prompt": "der Schmerz",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "der Schmerz",
+              "Schmerz"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "pain",
+          "forms": {
+            "f_sg": [
+              "la douleur"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "36"
+      }
+    },
+    {
+      "id": "hurt",
+      "type": "verb",
+      "de": {
+        "prompt": "wehtun",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "wehtun"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "hurt",
+          "forms": {
+            "infinitive": [
+              "faire mal"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "37"
+      }
+    },
+    {
+      "id": "have-pain",
+      "type": "verb",
+      "de": {
+        "prompt": "Schmerzen haben",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "Schmerzen haben"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "have-pain",
+          "forms": {
+            "infinitive": [
+              "avoir mal"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "38"
+      }
+    },
+    {
+      "id": "suffer",
+      "type": "verb",
+      "de": {
+        "prompt": "leiden",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "leiden"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "suffer",
+          "forms": {
+            "infinitive": [
+              "souffrir"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "39"
+      }
+    },
+    {
+      "id": "blood-row40",
+      "type": "noun",
+      "de": {
+        "prompt": "das Blut",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "das Blut",
+              "Blut"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "blood-row40",
+          "forms": {
+            "m_sg": [
+              "le sang"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "40"
+      },
+      "notes": "Split from source row 40, preserving its distinct parts of speech or constructions. Mass noun in the source sense; no plural is required. Repeated from source row 25; retained to preserve both source occurrences.",
+      "related_entry_ids": [
+        "bleed",
+        "blood"
+      ]
+    },
+    {
+      "id": "bleed",
+      "type": "verb",
+      "de": {
+        "prompt": "bluten",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "bluten"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "bleed",
+          "forms": {
+            "infinitive": [
+              "saigner"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "40"
+      },
+      "related_entry_ids": [
+        "blood-row40"
+      ],
+      "notes": "Split from source row 40, preserving its distinct parts of speech or constructions."
+    },
+    {
+      "id": "injury",
+      "type": "noun",
+      "de": {
+        "prompt": "die Verletzung / die Wunde",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "die Verletzung",
+              "Verletzung",
+              "die Wunde",
+              "Wunde"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "injury",
+          "forms": {
+            "f_sg": [
+              "la blessure"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "41"
+      },
+      "related_entry_ids": [
+        "injure",
+        "injure-oneself",
+        "injured"
+      ],
+      "notes": "Split from source row 41, preserving its distinct parts of speech or constructions."
+    },
+    {
+      "id": "injure",
+      "type": "verb",
+      "de": {
+        "prompt": "verletzen",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "verletzen"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "injure",
+          "forms": {
+            "infinitive": [
+              "blesser"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "41"
+      },
+      "notes": "Split from source row 41, preserving its distinct parts of speech or constructions. Source “(se) blesser” is split into transitive blesser and reflexive se blesser, with distinct German prompts.",
+      "related_entry_ids": [
+        "injury",
+        "injure-oneself",
+        "injured"
+      ]
+    },
+    {
+      "id": "injure-oneself",
+      "type": "verb",
+      "de": {
+        "prompt": "sich verletzen",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "sich verletzen"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "injure-oneself",
+          "forms": {
+            "infinitive": [
+              "se blesser"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "41"
+      },
+      "notes": "Split from source row 41, preserving its distinct parts of speech or constructions. Source “(se) blesser” is split into transitive blesser and reflexive se blesser, with distinct German prompts.",
+      "related_entry_ids": [
+        "injury",
+        "injure",
+        "injured"
+      ]
+    },
+    {
+      "id": "injured",
+      "type": "adjective",
+      "de": {
+        "prompt": "verletzt",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "verletzt"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "injured",
+          "forms": {
+            "m_sg": [
+              "blessé"
+            ],
+            "f_sg": [
+              "blessée"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "41"
+      },
+      "related_entry_ids": [
+        "injury",
+        "injure",
+        "injure-oneself"
+      ],
+      "notes": "Split from source row 41, preserving its distinct parts of speech or constructions."
+    },
+    {
+      "id": "break-oneself",
+      "type": "verb",
+      "de": {
+        "prompt": "sich brechen",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "sich brechen"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "break-oneself",
+          "forms": {
+            "infinitive": [
+              "se casser"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "42"
+      }
+    },
+    {
+      "id": "cold",
+      "type": "noun",
+      "de": {
+        "prompt": "die Erkältung / der Schnupfen",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "die Erkältung",
+              "Erkältung",
+              "der Schnupfen",
+              "Schnupfen"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "cold",
+          "forms": {
+            "m_sg": [
+              "le rhume"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "43"
+      }
+    },
+    {
+      "id": "having-a-cold",
+      "type": "adjective",
+      "de": {
+        "prompt": "erkältet",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "erkältet"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "having-a-cold",
+          "forms": {
+            "m_sg": [
+              "enrhumé"
+            ],
+            "f_sg": [
+              "enrhumée"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "44"
+      }
+    },
+    {
+      "id": "fever",
+      "type": "noun",
+      "de": {
+        "prompt": "das Fieber",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "das Fieber",
+              "Fieber"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "fever",
+          "forms": {
+            "f_sg": [
+              "la fièvre"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "45"
+      }
+    },
+    {
+      "id": "cough",
+      "type": "noun",
+      "de": {
+        "prompt": "der Husten",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "der Husten",
+              "Husten"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "cough",
+          "forms": {
+            "f_sg": [
+              "la toux"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "46"
+      },
+      "related_entry_ids": [
+        "to-cough"
+      ],
+      "notes": "Split from source row 46, preserving its distinct parts of speech or constructions."
+    },
+    {
+      "id": "to-cough",
+      "type": "verb",
+      "de": {
+        "prompt": "husten",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "husten"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "to-cough",
+          "forms": {
+            "infinitive": [
+              "tousser"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "46"
+      },
+      "related_entry_ids": [
+        "cough"
+      ],
+      "notes": "Split from source row 46, preserving its distinct parts of speech or constructions."
+    },
+    {
+      "id": "headache",
+      "type": "noun",
+      "de": {
+        "prompt": "die Kopfschmerzen",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "die Kopfschmerzen",
+              "Kopfschmerzen"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "headache",
+          "forms": {
+            "m_sg": [
+              "le mal de tête"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "47"
+      }
+    },
+    {
+      "id": "stomachache",
+      "type": "noun",
+      "de": {
+        "prompt": "die Bauchschmerzen",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "die Bauchschmerzen",
+              "Bauchschmerzen"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "stomachache",
+          "forms": {
+            "m_sg": [
+              "le mal de ventre"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "48"
+      }
+    },
+    {
+      "id": "sore-throat",
+      "type": "noun",
+      "de": {
+        "prompt": "die Halsschmerzen",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "die Halsschmerzen",
+              "Halsschmerzen"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "sore-throat",
+          "forms": {
+            "m_sg": [
+              "le mal de gorge"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "49"
+      }
+    },
+    {
+      "id": "sweat",
+      "type": "verb",
+      "de": {
+        "prompt": "schwitzen",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "schwitzen"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "sweat",
+          "forms": {
+            "infinitive": [
+              "transpirer"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "50"
+      }
+    },
+    {
+      "id": "disabled-person",
+      "type": "noun",
+      "de": {
+        "prompt": "der Behinderte / die Behinderte",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "der Behinderte",
+              "Behinderte",
+              "die Behinderte"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "handicape",
+          "forms": {
+            "m_sg": [
+              "le handicapé"
+            ],
+            "f_sg": [
+              "la handicapée"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "51"
+      }
+    },
+    {
+      "id": "disabled",
+      "type": "adjective",
+      "de": {
+        "prompt": "behindert",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "behindert"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "disabled",
+          "forms": {
+            "m_sg": [
+              "handicapé"
+            ],
+            "f_sg": [
+              "handicapée"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "52"
+      }
+    },
+    {
+      "id": "tremble",
+      "type": "verb",
+      "de": {
+        "prompt": "zittern",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "zittern"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "tremble",
+          "forms": {
+            "infinitive": [
+              "trembler"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "53"
+      }
+    },
+    {
+      "id": "habit",
+      "type": "noun",
+      "de": {
+        "prompt": "die Gewohnheit",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "die Gewohnheit",
+              "Gewohnheit"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "habit",
+          "forms": {
+            "f_sg": [
+              "l’habitude"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "54"
+      },
+      "related_entry_ids": [
+        "get-used-to"
+      ],
+      "notes": "Split from source row 54, preserving its distinct parts of speech or constructions."
+    },
+    {
+      "id": "get-used-to",
+      "type": "verb",
+      "de": {
+        "prompt": "sich gewöhnen an",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "sich gewöhnen an"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "get-used-to",
+          "forms": {
+            "infinitive": [
+              "s’habituer à"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "54"
+      },
+      "related_entry_ids": [
+        "habit"
+      ],
+      "notes": "Split from source row 54, preserving its distinct parts of speech or constructions."
+    },
+    {
+      "id": "depend-on",
+      "type": "verb",
+      "de": {
+        "prompt": "abhängig sein von",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "abhängig sein von"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "depend-on",
+          "forms": {
+            "infinitive": [
+              "dépendre de"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "55"
+      }
+    },
+    {
+      "id": "examination",
+      "type": "noun",
+      "de": {
+        "prompt": "die Untersuchung",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "die Untersuchung",
+              "Untersuchung"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "examination",
+          "forms": {
+            "m_sg": [
+              "l’examen"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "56"
+      },
+      "related_entry_ids": [
+        "examine"
+      ],
+      "notes": "Split from source row 56, preserving its distinct parts of speech or constructions."
+    },
+    {
+      "id": "examine",
+      "type": "verb",
+      "de": {
+        "prompt": "untersuchen",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "untersuchen"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "examine",
+          "forms": {
+            "infinitive": [
+              "examiner"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "56"
+      },
+      "related_entry_ids": [
+        "examination"
+      ],
+      "notes": "Split from source row 56, preserving its distinct parts of speech or constructions."
+    },
+    {
+      "id": "treat",
+      "type": "verb",
+      "de": {
+        "prompt": "behandeln",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "behandeln"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "treat-1",
+          "forms": {
+            "infinitive": [
+              "traiter"
+            ]
+          }
+        },
+        {
+          "id": "treat-2",
+          "forms": {
+            "infinitive": [
+              "soigner"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "57"
+      },
+      "notes": "Both verbs printed in the source are required French groups, not interchangeable alternatives."
+    },
+    {
+      "id": "medical",
+      "type": "adjective",
+      "de": {
+        "prompt": "medizinisch",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "medizinisch"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "medical",
+          "forms": {
+            "m_sg": [
+              "médical"
+            ],
+            "f_sg": [
+              "médicale"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "58"
+      }
+    },
+    {
+      "id": "breath",
+      "type": "noun",
+      "de": {
+        "prompt": "der Atem",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "der Atem",
+              "Atem"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "breath",
+          "forms": {
+            "m_sg": [
+              "le souffle"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "59"
+      }
+    },
+    {
+      "id": "breathing",
+      "type": "noun",
+      "de": {
+        "prompt": "die Atmung",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "die Atmung",
+              "Atmung"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "breathing",
+          "forms": {
+            "f_sg": [
+              "la respiration"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "60"
+      },
+      "related_entry_ids": [
+        "breathe"
+      ],
+      "notes": "Split from source row 60, preserving its distinct parts of speech or constructions."
+    },
+    {
+      "id": "breathe",
+      "type": "verb",
+      "de": {
+        "prompt": "atmen",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "atmen"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "breathe",
+          "forms": {
+            "infinitive": [
+              "respirer"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "60"
+      },
+      "related_entry_ids": [
+        "breathing"
+      ],
+      "notes": "Split from source row 60, preserving its distinct parts of speech or constructions."
+    },
+    {
+      "id": "pharmacy",
+      "type": "noun",
+      "de": {
+        "prompt": "die Apotheke",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "die Apotheke",
+              "Apotheke"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "pharmacy",
+          "forms": {
+            "f_sg": [
+              "la pharmacie"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "61"
+      }
+    },
+    {
+      "id": "medicine",
+      "type": "noun",
+      "de": {
+        "prompt": "das Medikament",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "das Medikament",
+              "Medikament"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "medicine",
+          "forms": {
+            "m_sg": [
+              "le médicament"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "62"
+      }
+    },
+    {
+      "id": "tablet",
+      "type": "noun",
+      "de": {
+        "prompt": "die Tablette",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "die Tablette",
+              "Tablette"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "tablet",
+          "forms": {
+            "m_sg": [
+              "le comprimé"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "63"
+      }
+    },
+    {
+      "id": "pill",
+      "type": "noun",
+      "de": {
+        "prompt": "die Pille",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "die Pille",
+              "Pille"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "pill",
+          "forms": {
+            "f_sg": [
+              "la pilule"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 2,
+        "row": "64"
+      }
+    },
+    {
+      "id": "prescribe",
+      "type": "verb",
+      "de": {
+        "prompt": "verschreiben",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "verschreiben"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "prescribe-1",
+          "forms": {
+            "infinitive": [
+              "ordonner"
+            ]
+          }
+        },
+        {
+          "id": "prescribe-2",
+          "forms": {
+            "infinitive": [
+              "prescrire"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 3,
+        "row": "65"
+      },
+      "notes": "Both verbs printed in the source are required French groups, not interchangeable alternatives."
+    },
+    {
+      "id": "hospital",
+      "type": "noun",
+      "de": {
+        "prompt": "das Spital",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "das Spital",
+              "Spital"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "hospital",
+          "forms": {
+            "m_sg": [
+              "l’hôpital"
+            ],
+            "m_pl": [
+              "les hôpitaux"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 3,
+        "row": "66"
+      }
+    },
+    {
+      "id": "medical-practice",
+      "type": "noun",
+      "de": {
+        "prompt": "die Arztpraxis",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "die Arztpraxis",
+              "Arztpraxis"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "medical-practice",
+          "forms": {
+            "m_sg": [
+              "le cabinet médical"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 3,
+        "row": "67"
+      }
+    },
+    {
+      "id": "waiting-room",
+      "type": "noun",
+      "de": {
+        "prompt": "das Wartezimmer",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "das Wartezimmer",
+              "Wartezimmer"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "waiting-room",
+          "forms": {
+            "f_sg": [
+              "la salle d’attente"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 3,
+        "row": "68"
+      }
+    },
+    {
+      "id": "clinic",
+      "type": "noun",
+      "de": {
+        "prompt": "die Klinik",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "die Klinik",
+              "Klinik"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "clinic",
+          "forms": {
+            "f_sg": [
+              "la clinique"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 3,
+        "row": "69"
+      }
+    },
+    {
+      "id": "danger",
+      "type": "noun",
+      "de": {
+        "prompt": "die Gefahr",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "die Gefahr",
+              "Gefahr"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "danger",
+          "forms": {
+            "m_sg": [
+              "le danger"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 3,
+        "row": "70"
+      },
+      "related_entry_ids": [
+        "dangerous"
+      ],
+      "notes": "Split from source row 70, preserving its distinct parts of speech or constructions."
+    },
+    {
+      "id": "dangerous",
+      "type": "adjective",
+      "de": {
+        "prompt": "gefährlich",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "gefährlich"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "dangerous",
+          "forms": {
+            "m_sg": [
+              "dangereux"
+            ],
+            "f_sg": [
+              "dangereuse"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 3,
+        "row": "70"
+      },
+      "related_entry_ids": [
+        "danger"
+      ],
+      "notes": "Split from source row 70, preserving its distinct parts of speech or constructions."
+    },
+    {
+      "id": "accident",
+      "type": "noun",
+      "de": {
+        "prompt": "der Unfall",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "der Unfall",
+              "Unfall"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "accident",
+          "forms": {
+            "m_sg": [
+              "l’accident"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 3,
+        "row": "71"
+      }
+    },
+    {
+      "id": "save",
+      "type": "verb",
+      "de": {
+        "prompt": "retten",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "retten"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "save",
+          "forms": {
+            "infinitive": [
+              "sauver"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 3,
+        "row": "72"
+      }
+    },
+    {
+      "id": "police",
+      "type": "noun",
+      "de": {
+        "prompt": "die Polizei",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "die Polizei",
+              "Polizei"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "police",
+          "forms": {
+            "f_sg": [
+              "la police"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 3,
+        "row": "73"
+      },
+      "notes": "Collective institutional sense from the source; no plural is required."
+    },
+    {
+      "id": "ambulance",
+      "type": "noun",
+      "de": {
+        "prompt": "der Krankenwagen",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "der Krankenwagen",
+              "Krankenwagen"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "ambulance",
+          "forms": {
+            "f_sg": [
+              "l’ambulance"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 3,
+        "row": "74"
+      }
+    },
+    {
+      "id": "rescue-service",
+      "type": "noun",
+      "de": {
+        "prompt": "der Rettungsdienst",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "der Rettungsdienst",
+              "Rettungsdienst"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "secours",
+          "forms": {
+            "m_pl": [
+              "les secours"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 3,
+        "row": "75"
+      },
+      "notes": "The source explicitly supplies masculine plural les secours for the rescue service; no singular is required in this sense."
+    },
+    {
+      "id": "help-call",
+      "type": "other",
+      "de": {
+        "prompt": "Hilfe !",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "Hilfe !"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "help-call",
+          "forms": {
+            "text": [
+              "Au secours !"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 3,
+        "row": "76"
+      }
+    },
+    {
+      "id": "attention",
+      "type": "other",
+      "de": {
+        "prompt": "Achtung !",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "Achtung !"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "attention",
+          "forms": {
+            "text": [
+              "Attention !"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 3,
+        "row": "77"
+      }
+    },
+    {
+      "id": "eat-balanced",
+      "type": "verb",
+      "de": {
+        "prompt": "ausgewogen essen",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "ausgewogen essen"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "eat-balanced",
+          "forms": {
+            "infinitive": [
+              "manger équilibré"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 3,
+        "row": "78"
+      }
+    },
+    {
+      "id": "play-sport",
+      "type": "verb",
+      "de": {
+        "prompt": "Sport treiben",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "Sport treiben"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "play-sport",
+          "forms": {
+            "infinitive": [
+              "faire du sport"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 3,
+        "row": "79"
+      }
+    },
+    {
+      "id": "drink-water",
+      "type": "verb",
+      "de": {
+        "prompt": "Wasser trinken",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "Wasser trinken"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "drink-water",
+          "forms": {
+            "infinitive": [
+              "boire de l’eau"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 3,
+        "row": "80"
+      }
+    },
+    {
+      "id": "avoid-stress",
+      "type": "verb",
+      "de": {
+        "prompt": "Stress vermeiden",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "Stress vermeiden"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "avoid-stress",
+          "forms": {
+            "infinitive": [
+              "éviter le stress"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 3,
+        "row": "81"
+      }
+    },
+    {
+      "id": "sleep-enough",
+      "type": "verb",
+      "de": {
+        "prompt": "genug schlafen",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "genug schlafen"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "sleep-enough",
+          "forms": {
+            "infinitive": [
+              "dormir suffisamment"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 3,
+        "row": "82"
+      }
+    },
+    {
+      "id": "not-smoke",
+      "type": "verb",
+      "de": {
+        "prompt": "nicht rauchen",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "nicht rauchen"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "not-smoke",
+          "forms": {
+            "infinitive": [
+              "ne pas fumer"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 3,
+        "row": "83"
+      }
+    },
+    {
+      "id": "limit-alcohol",
+      "type": "verb",
+      "de": {
+        "prompt": "Alkohol einschränken",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "Alkohol einschränken"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "limit-alcohol",
+          "forms": {
+            "infinitive": [
+              "limiter l’alcool"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 3,
+        "row": "84"
+      }
+    },
+    {
+      "id": "walk-daily",
+      "type": "verb",
+      "de": {
+        "prompt": "täglich spazieren",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "täglich spazieren"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "walk-daily",
+          "forms": {
+            "infinitive": [
+              "marcher tous les jours"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 3,
+        "row": "85"
+      }
+    },
+    {
+      "id": "relax",
+      "type": "verb",
+      "de": {
+        "prompt": "sich entspannen",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "sich entspannen"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "relax",
+          "forms": {
+            "infinitive": [
+              "se détendre"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 3,
+        "row": "86"
+      }
+    },
+    {
+      "id": "breathe-deeply",
+      "type": "verb",
+      "de": {
+        "prompt": "tief atmen",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "tief atmen"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "breathe-deeply",
+          "forms": {
+            "infinitive": [
+              "respirer profondément"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 3,
+        "row": "87"
+      }
+    },
+    {
+      "id": "wash-oneself",
+      "type": "verb",
+      "de": {
+        "prompt": "sich waschen",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "sich waschen"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "wash-oneself",
+          "forms": {
+            "infinitive": [
+              "se laver"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 3,
+        "row": "88"
+      }
+    },
+    {
+      "id": "take-shower",
+      "type": "verb",
+      "de": {
+        "prompt": "duschen / sich duschen",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "duschen",
+              "sich duschen"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "take-shower",
+          "forms": {
+            "infinitive": [
+              "prendre une douche"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 3,
+        "row": "89"
+      }
+    },
+    {
+      "id": "take-bath",
+      "type": "verb",
+      "de": {
+        "prompt": "ein Bad nehmen / baden",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "ein Bad nehmen",
+              "baden"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "take-bath",
+          "forms": {
+            "infinitive": [
+              "prendre un bain"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 3,
+        "row": "90"
+      }
+    },
+    {
+      "id": "soap",
+      "type": "noun",
+      "de": {
+        "prompt": "die Seife",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "die Seife",
+              "Seife"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "soap",
+          "forms": {
+            "m_sg": [
+              "le savon"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 3,
+        "row": "91"
+      }
+    },
+    {
+      "id": "dry-oneself",
+      "type": "verb",
+      "de": {
+        "prompt": "sich abtrocknen",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "sich abtrocknen"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "dry-oneself",
+          "forms": {
+            "infinitive": [
+              "s’essuyer"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 3,
+        "row": "92"
+      }
+    },
+    {
+      "id": "comb",
+      "type": "noun",
+      "de": {
+        "prompt": "der Kamm",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "der Kamm",
+              "Kamm"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "comb",
+          "forms": {
+            "m_sg": [
+              "le peigne"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 3,
+        "row": "93"
+      }
+    },
+    {
+      "id": "brush",
+      "type": "noun",
+      "de": {
+        "prompt": "die Bürste",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "die Bürste",
+              "Bürste"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "brush",
+          "forms": {
+            "f_sg": [
+              "la brosse"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 3,
+        "row": "94"
+      },
+      "related_entry_ids": [
+        "to-brush"
+      ],
+      "notes": "Split from source row 94, preserving its distinct parts of speech or constructions."
+    },
+    {
+      "id": "to-brush",
+      "type": "verb",
+      "de": {
+        "prompt": "bürsten",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "bürsten"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "to-brush",
+          "forms": {
+            "infinitive": [
+              "brosser"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 3,
+        "row": "94"
+      },
+      "related_entry_ids": [
+        "brush"
+      ],
+      "notes": "Split from source row 94, preserving its distinct parts of speech or constructions."
+    },
+    {
+      "id": "toothbrush",
+      "type": "noun",
+      "de": {
+        "prompt": "die Zahnbürste",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "die Zahnbürste",
+              "Zahnbürste"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "toothbrush",
+          "forms": {
+            "f_sg": [
+              "la brosse à dents"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 3,
+        "row": "95"
+      }
+    },
+    {
+      "id": "brush-teeth",
+      "type": "verb",
+      "de": {
+        "prompt": "sich die Zähne putzen",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "sich die Zähne putzen"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "brush-teeth",
+          "forms": {
+            "infinitive": [
+              "se laver les dents"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 3,
+        "row": "96"
+      }
+    },
+    {
+      "id": "toothpaste",
+      "type": "noun",
+      "de": {
+        "prompt": "die Zahnpasta",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "die Zahnpasta",
+              "Zahnpasta"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "toothpaste",
+          "forms": {
+            "m_sg": [
+              "le dentifrice"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 3,
+        "row": "97"
+      },
+      "notes": "Mass noun in the source sense; no plural is required."
+    },
+    {
+      "id": "shave",
+      "type": "verb",
+      "de": {
+        "prompt": "sich rasieren",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "sich rasieren"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "shave",
+          "forms": {
+            "infinitive": [
+              "se raser"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 3,
+        "row": "98"
+      }
+    },
+    {
+      "id": "makeup",
+      "type": "noun",
+      "de": {
+        "prompt": "die Schminke",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "die Schminke",
+              "Schminke"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "makeup",
+          "forms": {
+            "m_sg": [
+              "le maquillage"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 4,
+        "row": "99"
+      },
+      "notes": "Split from source row 99, preserving its distinct parts of speech or constructions. Mass noun in the source sense; no plural is required.",
+      "related_entry_ids": [
+        "apply-makeup"
+      ]
+    },
+    {
+      "id": "apply-makeup",
+      "type": "verb",
+      "de": {
+        "prompt": "sich schminken",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "sich schminken"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "apply-makeup",
+          "forms": {
+            "infinitive": [
+              "se maquiller"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 4,
+        "row": "99"
+      },
+      "related_entry_ids": [
+        "makeup"
+      ],
+      "notes": "Split from source row 99, preserving its distinct parts of speech or constructions."
+    },
+    {
+      "id": "handkerchief",
+      "type": "noun",
+      "de": {
+        "prompt": "das Nastuch",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "das Nastuch",
+              "Nastuch"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "handkerchief",
+          "forms": {
+            "m_sg": [
+              "le mouchoir"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 4,
+        "row": "100"
+      }
+    },
+    {
+      "id": "be-healthy",
+      "type": "verb",
+      "de": {
+        "prompt": "gesund sein",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "gesund sein"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "be-healthy",
+          "forms": {
+            "infinitive": [
+              "être en bonne santé"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 4,
+        "row": "101"
+      }
+    },
+    {
+      "id": "sleep",
+      "type": "noun",
+      "de": {
+        "prompt": "der Schlaf",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "der Schlaf",
+              "Schlaf"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "sleep",
+          "forms": {
+            "m_sg": [
+              "le sommeil"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 4,
+        "row": "102"
+      },
+      "notes": "Mass noun in the source sense; no plural is required."
+    },
+    {
+      "id": "diet",
+      "type": "noun",
+      "de": {
+        "prompt": "die Diät",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "die Diät",
+              "Diät"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "diet",
+          "forms": {
+            "m_sg": [
+              "le régime"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 4,
+        "row": "103"
+      }
+    },
+    {
+      "id": "vaccine",
+      "type": "noun",
+      "de": {
+        "prompt": "die Impfung / der Impfstoff",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "die Impfung",
+              "Impfung",
+              "der Impfstoff",
+              "Impfstoff"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "vaccine",
+          "forms": {
+            "m_sg": [
+              "le vaccin"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 4,
+        "row": "104"
+      },
+      "notes": "Both German meanings are explicitly supplied by the source and retained as reverse-answer alternatives."
+    },
+    {
+      "id": "care",
+      "type": "noun",
+      "de": {
+        "prompt": "die Pflege",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "die Pflege",
+              "Pflege"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "care",
+          "forms": {
+            "m_sg": [
+              "le soin"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 4,
+        "row": "105"
+      }
+    },
+    {
+      "id": "feel-unwell",
+      "type": "other",
+      "de": {
+        "prompt": "Ich fühle mich nicht gut.",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "Ich fühle mich nicht gut."
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "feel-unwell",
+          "forms": {
+            "text": [
+              "Je ne me sens pas bien."
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 4,
+        "row": "106"
+      },
+      "allow_self_override": true
+    },
+    {
+      "id": "pain-here",
+      "type": "other",
+      "de": {
+        "prompt": "Mir tut es hier weh.",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "Mir tut es hier weh."
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "pain-here",
+          "forms": {
+            "text": [
+              "J’ai mal ici."
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 4,
+        "row": "107"
+      },
+      "allow_self_override": true
+    },
+    {
+      "id": "call-ambulance",
+      "type": "other",
+      "de": {
+        "prompt": "Rufen Sie einen Krankenwagen!",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "Rufen Sie einen Krankenwagen!"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "call-ambulance",
+          "forms": {
+            "text": [
+              "Appelez une ambulance!"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 4,
+        "row": "108"
+      },
+      "allow_self_override": true
+    },
+    {
+      "id": "need-doctor",
+      "type": "other",
+      "de": {
+        "prompt": "Ich brauche einen Arzt.",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "Ich brauche einen Arzt."
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "need-doctor",
+          "forms": {
+            "text": [
+              "J’ai besoin d’un médecin."
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 4,
+        "row": "109"
+      },
+      "allow_self_override": true
+    },
+    {
+      "id": "emergency",
+      "type": "other",
+      "de": {
+        "prompt": "Es ist ein Notfall !",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "Es ist ein Notfall !"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "emergency",
+          "forms": {
+            "text": [
+              "C’est une urgence !"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 4,
+        "row": "110"
+      },
+      "allow_self_override": true
+    }
+  ]
+}

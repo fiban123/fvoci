@@ -1,0 +1,4 @@
+/build/
+/progress/
+*.lock
+*.tmp.*

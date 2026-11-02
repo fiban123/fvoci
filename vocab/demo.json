@@ -1,0 +1,381 @@
+{
+  "schema_version": 1,
+  "id": "fvoci-demo",
+  "revision": 1,
+  "title": "French practice — demo",
+  "languages": {
+    "prompt": "de",
+    "answer": "fr"
+  },
+  "entries": [
+    {
+      "id": "cat",
+      "type": "noun",
+      "de": {
+        "prompt": "die Katze",
+        "answers": [
+          {
+            "id": "cat-de",
+            "accept": [
+              "die Katze",
+              "Katze"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "chat",
+          "forms": {
+            "m_sg": [
+              "le chat"
+            ],
+            "m_pl": [
+              "les chats"
+            ]
+          }
+        }
+      ],
+      "notes": "Illustrative entry; only these masculine forms are required."
+    },
+    {
+      "id": "eye",
+      "type": "noun",
+      "de": {
+        "prompt": "das Auge, die Augen",
+        "answers": [
+          {
+            "id": "singular",
+            "accept": [
+              "das Auge",
+              "Auge"
+            ]
+          },
+          {
+            "id": "plural",
+            "accept": [
+              "die Augen",
+              "Augen"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "oeil",
+          "forms": {
+            "m_sg": [
+              "l’œil"
+            ],
+            "m_pl": [
+              "les yeux"
+            ]
+          }
+        }
+      ],
+      "source": {
+        "file": "Vocabulaire leçon 6.pdf",
+        "page": 1,
+        "row": "4"
+      }
+    },
+    {
+      "id": "feel",
+      "type": "verb",
+      "de": {
+        "prompt": "sich fühlen",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "sich fühlen"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "se-sentir",
+          "forms": {
+            "infinitive": [
+              "se sentir"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "treat",
+      "type": "verb",
+      "de": {
+        "prompt": "behandeln",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "behandeln"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "traiter",
+          "forms": {
+            "infinitive": [
+              "traiter"
+            ]
+          }
+        },
+        {
+          "id": "soigner",
+          "forms": {
+            "infinitive": [
+              "soigner"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "healthy",
+      "type": "adjective",
+      "de": {
+        "prompt": "gesund",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "gesund"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "sain",
+          "forms": {
+            "m_sg": [
+              "sain"
+            ],
+            "f_sg": [
+              "saine"
+            ],
+            "m_pl": [
+              "sains"
+            ],
+            "f_pl": [
+              "saines"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "feel-unwell",
+      "type": "other",
+      "de": {
+        "prompt": "Ich fühle mich nicht gut.",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "Ich fühle mich nicht gut."
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "sentence",
+          "forms": {
+            "text": [
+              "Je ne me sens pas bien."
+            ]
+          }
+        }
+      ],
+      "allow_self_override": true
+    },
+    {
+      "id": "tooth",
+      "type": "noun",
+      "de": {
+        "prompt": "der Zahn",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "der Zahn"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "tooth",
+          "forms": {
+            "f_sg": [
+              "la dent"
+            ],
+            "f_pl": [
+              "les dents"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "mouth",
+      "type": "noun",
+      "de": {
+        "prompt": "der Mund",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "der Mund"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "mouth",
+          "forms": {
+            "f_sg": [
+              "la bouche"
+            ],
+            "f_pl": [
+              "les bouches"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "nose",
+      "type": "noun",
+      "de": {
+        "prompt": "die Nase",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "die Nase"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "nose",
+          "forms": {
+            "m_sg": [
+              "le nez"
+            ],
+            "m_pl": [
+              "les nez"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "body",
+      "type": "noun",
+      "de": {
+        "prompt": "der Körper",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "der Körper"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "body",
+          "forms": {
+            "m_sg": [
+              "le corps"
+            ],
+            "m_pl": [
+              "les corps"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "illness",
+      "type": "noun",
+      "de": {
+        "prompt": "die Krankheit",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "die Krankheit"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "maladie",
+          "forms": {
+            "f_sg": [
+              "la maladie"
+            ],
+            "f_pl": [
+              "les maladies"
+            ]
+          }
+        }
+      ],
+      "related_entry_ids": [
+        "ill"
+      ]
+    },
+    {
+      "id": "ill",
+      "type": "adjective",
+      "de": {
+        "prompt": "krank",
+        "answers": [
+          {
+            "id": "meaning",
+            "accept": [
+              "krank"
+            ]
+          }
+        ]
+      },
+      "fr": [
+        {
+          "id": "malade",
+          "forms": {
+            "m_sg": [
+              "malade"
+            ],
+            "f_sg": [
+              "malade"
+            ],
+            "m_pl": [
+              "malades"
+            ],
+            "f_pl": [
+              "malades"
+            ]
+          }
+        }
+      ],
+      "related_entry_ids": [
+        "illness"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "fvoci Vocabulary"
+  short_description: "Convert French school vocabulary into fvoci JSON"
+  default_prompt: "Use $fvoci-vocab to convert this German–French vocabulary PDF into a validated fvoci deck."
