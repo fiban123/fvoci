@@ -264,6 +264,9 @@ int main() {
     check(expansion_grade(singleton, "le chat").correct &&
               !expansion_grade(singleton, "le/les chat.s(m)").correct,
           "Only the vocabulary's listed forms are required or accepted");
+    check(expansion_grade(singleton, "le chat(mf)").correct &&
+              expansion_grade(singleton, "{le chat}(mf)").correct,
+          "Article gender behaves identically for literal and expanded answers");
     auto expanded_cat = expansion_grade(cat, "le/les chat.s(m)");
     check(expanded_cat.correct && expanded_cat.expanded_units.size() == 2 &&
               expanded_cat.inferred_units.empty() && expanded_cat.expanded_answers.size() == 2,
@@ -418,6 +421,105 @@ int main() {
       Engine resumed(p, nouns, adaptive, [&] { return clock + 8640000; }, 1);
       check(resumed.session()["sweep"].dump() == snapshot && resumed.next()->json().dump() == expected,
             "Sweep stage, retry positions, and pending options survive resume");
+    }
+    {
+      auto c = config;
+      c["sweep"] = "full";
+      c["random_order_max_score"] = 0.5;
+      Progress p(root + "/random-threshold.json", true);
+      Engine e(p, d, c, [&] { return clock; }, 31);
+      check(!e.session()["sweep"]["random_order"].boolean(),
+            "Unseen zero-score words do not unlock random order");
+      for (size_t i = 0; i < d.entries.size(); ++i) record(p, d, e, i)["full_sweeps"] = 1;
+      auto t = e.next();
+      check(!e.session()["sweep"]["random_order"].boolean(), "One full pass is not enough to unlock random order");
+      e.skip(*t);
+      for (size_t i = 0; i < d.entries.size(); ++i) {
+        record(p, d, e, i)["full_sweeps"] = 2;
+        record(p, d, e, i)["score"] = 0.75;
+      }
+      t = e.next();
+      check(!e.session()["sweep"]["random_order"].boolean(), "Average above the configured threshold keeps introductory ordering");
+      e.skip(*t);
+      for (size_t i = 0; i < d.entries.size(); ++i) record(p, d, e, i)["score"] = 0.5;
+      t = e.next();
+      check(e.session()["sweep"]["random_order"].boolean(), "Exact average threshold unlocks random order");
+      e.skip(*t);
+      for (size_t i = 0; i < d.entries.size(); ++i) record(p, d, e, i)["score"] = 3.0;
+      e.next();
+      check(e.session()["sweep"]["random_order"].boolean(), "Random ordering remains unlocked after later mistakes");
+      for (double bad : {-0.01, 10.01}) {
+        c["random_order_max_score"] = bad;
+        rejects([&] { validate_config(c); }, "Random ordering threshold must be within score range");
+      }
+    }
+    {
+      auto c = config; c["sweep"] = "full";
+      Progress p(root + "/random-order.json", true);
+      Engine initial(p, d, c, [&] { return clock; }, 8);
+      for (size_t i = 0; i < d.entries.size(); ++i) {
+        record(p, d, initial, i)["full_sweeps"] = 2;
+        record(p, d, initial, i)["score"] = 0.5;
+      }
+      initial.finish();
+      auto prepared = p.data;
+      Engine e(p, d, c, [&] { return clock; }, 31);
+      std::vector<size_t> order;
+      for (int i = 0; i < 3; ++i) {
+        auto t = e.next(); order.push_back(t->entry); submit_answer(e, d, *t);
+      }
+      auto pending = e.next()->json().dump();
+      e.save_draft({{"draft expansion", "", "bar"}});
+      auto checkpoint = p.data;
+      while (order.size() < d.entries.size()) {
+        auto t = e.next();
+        check(e.session()["sweep_number"].num() == 1, "Random full sweep covers every word before restarting");
+        order.push_back(t->entry); submit_answer(e, d, *t);
+      }
+      check(std::set<size_t>(order.begin(), order.end()).size() == d.entries.size(),
+            "Random order never repeats a completed word within the sweep");
+      bool source_order = true;
+      for (size_t i = 0; i < order.size(); ++i) source_order = source_order && order[i] == i;
+      check(!source_order, "Well-learned full sweep no longer follows vocabulary file order");
+      p.data = checkpoint;
+      Engine resumed(p, d, c, [&] { return clock + 9999999; }, 123);
+      check(resumed.next()->json().dump() == pending && resumed.draft().front().text == "draft expansion",
+            "Random order preserves the pending question and draft on resume");
+      for (size_t i = 3; i < order.size(); ++i) {
+        auto t = resumed.next();
+        check(t->entry == order[i], "Resume restores the future random sequence, independently of clock or seed");
+        submit_answer(resumed, d, *t);
+      }
+      // A ready retry must compete with all other eligible words, not jump
+      // deterministically to the front just because it has an old retry slot.
+      std::set<size_t> selected;
+      for (uint32_t seed = 1; seed <= 8; ++seed) {
+        p.data = prepared;
+        Engine random(p, d, c, [&] { return clock; }, seed);
+        auto &items = random.session()["sweep"]["items"];
+        items[d.entries[0].id]["next_question"] = 1;
+        items[d.entries[1].id]["next_question"] = 99;
+        auto t = random.next();
+        selected.insert(t->entry);
+        check(t->entry != 1, "Random ordering respects the retry gap while eligible alternatives remain");
+      }
+      check(selected.size() > 1, "Random ordering chooses among fresh words and ready retries without fixed priority");
+      p.data = prepared;
+      // One difficult word does not block random ordering when the deck's
+      // average is good enough; selection still uses the chosen sweep pool.
+      for (auto &[id, word] : p.data["learning"][d.id][e.policy_id()]["words"].object_items()) word["score"] = 0.0;
+      record(p, d, e, 0)["score"] = 10.0;
+      Engine average(p, d, c, [&] { return clock; }, 1);
+      check(average.session()["sweep"]["random_order"].boolean(), "Unlock uses the whole-deck mean, not the hardest word");
+      p.data = prepared;
+      c.object_items().erase("random_order_max_score");
+      Engine old_settings(p, d, c, [&] { return clock; }, 17);
+      auto old_pending = old_settings.next()->json().dump();
+      auto old_session_id = old_settings.session()["id"].str();
+      c["random_order_max_score"] = 1.0;
+      Engine upgraded(p, d, c, [&] { return clock; }, 99);
+      check(upgraded.session()["id"].str() == old_session_id && upgraded.next()->json().dump() == old_pending,
+            "Adding the default threshold does not restart older saved sessions");
     }
     {
       auto adaptive = defaults(); adaptive["direction_weights"] = J{{"de_fr", 100}, {"fr_de", 0}};

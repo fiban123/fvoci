@@ -112,6 +112,7 @@ J defaults() {
            {"difficulty_threshold", 1.0}, {"very_difficult_threshold", 2.0},
            {"choice_support_score", 3.0}, {"random_fraction", 0.2},
            {"full_sweep_every", 5},
+           {"random_order_max_score", 1.0},
            {"written_mistake_weight", 1.0}, {"choice_mistake_weight", 0.5},
            {"clean_sweep_decay", 0.5},
            {"inference", "text-expansion-v1"},
@@ -155,6 +156,9 @@ void validate_config(const J &c) {
   if (c["very_difficult_threshold"].real() < c["difficulty_threshold"].real() ||
       !std::isfinite(c["random_fraction"].real()) || c["random_fraction"].real() < 0 || c["random_fraction"].real() > 1)
     throw std::runtime_error("Invalid sweep thresholds or random fraction");
+  auto random_score = c["random_order_max_score"].real(1.0);
+  if (!std::isfinite(random_score) || random_score < 0 || random_score > 10)
+    throw std::runtime_error("random_order_max_score must be between 0 and 10");
   auto a = c["direction_weights"]["de_fr"].num(),
        b = c["direction_weights"]["fr_de"].num();
   if (a < 0 || b < 0 || a + b < 1 || a + b > 10000)

@@ -283,6 +283,9 @@ Engine::Engine(Progress &p, const Deck &d, J c, std::function<int64_t()> clock,
                  "keybindings", "keymap", "color", "theme", "profile_directory", "feedback_detail",
                  "new_entries_per_day", "retry_after_seconds", "retry_after_questions",
                  "review_intervals_seconds", "test_date"}) session_config.object_items().erase(k);
+  // The new default must not discard an unfinished session from older builds.
+  if (session_config["random_order_max_score"].real(1.0) == 1.0)
+    session_config.object_items().erase("random_order_max_score");
   auto signature = hash(J{{"scheduler", "sweeps-v1"}, {"deck", d.id}, {"revisions", revisions},
                           {"config", session_config}, {"mock", mock_}}.dump());
   auto &s = session();
@@ -316,6 +319,21 @@ J &Engine::state(const Task &t) {
 }
 void Engine::save_rng() {
   std::ostringstream out; out << rng_; session()["rng"] = out.str();
+}
+bool Engine::use_random_order() {
+  if (mock_ || learning()["random_order_unlocked"].boolean()) return true;
+  double total = 0;
+  for (size_t i = 0; i < deck_.entries.size(); ++i) {
+    // Unseen words start at score zero; that alone is not evidence of learning.
+    if (word(i)["full_sweeps"].num() < 2) return false;
+    total += word(i)["score"].real();
+  }
+  if (!deck_.entries.empty() &&
+      total / deck_.entries.size() <= config_["random_order_max_score"].real(1.0)) {
+    learning()["random_order_unlocked"] = true;
+    return true;
+  }
+  return false;
 }
 std::string Engine::next_direction() {
   auto &bag = session()["bag"];
@@ -351,7 +369,8 @@ void Engine::start_sweep() {
   }
   session().inc("sweep_number");
   session()["sweep"] = J{{"number", session()["sweep_number"]}, {"mode", mode},
-                          {"warmup", warmup}, {"counted", false}, {"items", J::object()}};
+                          {"warmup", warmup}, {"random_order", use_random_order()},
+                          {"counted", false}, {"items", J::object()}};
   auto &items = session()["sweep"]["items"];
   for (auto i : pool) {
     auto direction = mock_ ? std::string() : next_direction();
@@ -409,6 +428,8 @@ std::optional<Task> Engine::next(bool) {
     if (mock_ || !s["sweep"]["items"].size()) { save_rng(); progress_.save(); return {}; }
     start_sweep();
   }
+  bool random_order = use_random_order();
+  s["sweep"]["random_order"] = random_order;
   std::vector<size_t> ready, waiting;
   bool ready_retry = false;
   int64_t question = s["completed"].num() + 1;
@@ -421,7 +442,7 @@ std::optional<Task> Engine::next(bool) {
     }
   }
   if (waiting.empty()) { save_rng(); progress_.save(); return {}; }
-  if (ready_retry && !mock_) {
+  if (ready_retry && !random_order) {
     int64_t earliest = std::numeric_limits<int64_t>::max();
     for (auto i : ready) {
       auto due = s["sweep"]["items"][deck_.entries[i].id]["next_question"].num();
@@ -435,12 +456,14 @@ std::optional<Task> Engine::next(bool) {
   if (pool.size() > 1)
     pool.erase(std::remove_if(pool.begin(), pool.end(), [&](size_t i) { return deck_.entries[i].id == s["last_entry"].str(); }), pool.end());
   size_t selected;
-  if (ready.empty()) {
+  if (random_order) {
+    selected = pool[std::uniform_int_distribution<size_t>(0, pool.size() - 1)(rng_)];
+  } else if (ready.empty()) {
     selected = *std::min_element(pool.begin(), pool.end(), [&](size_t a, size_t b) {
       return s["sweep"]["items"][deck_.entries[a].id]["next_question"].num() <
              s["sweep"]["items"][deck_.entries[b].id]["next_question"].num();
     });
-  } else if (ready_retry || mock_)
+  } else if (ready_retry)
     selected = pool[std::uniform_int_distribution<size_t>(0, pool.size() - 1)(rng_)];
   else selected = *std::min_element(pool.begin(), pool.end());
   auto &item = s["sweep"]["items"][deck_.entries[selected].id];

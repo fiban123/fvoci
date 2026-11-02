@@ -296,6 +296,14 @@ After the two introductory sweeps:
 
 The required repetition count is fixed when a sweep starts. Recognition success never replaces a required written success. Words with no mistakes remain at score zero. The earlier blanket “90% accuracy disables all multiple choice” rule is replaced by this per-word score rule: an otherwise strong learner can still receive help on a particularly difficult word.
 
+### Random question order
+
+After every current word has completed two introductory full sweeps, an average difficulty score of **1.0 or lower** unlocks random question order. The average covers the entire selected vocabulary, including words outside a difficult-only sweep. New words' initial zero scores cannot unlock it before those introductory passes.
+
+Once unlocked, each next question is chosen uniformly from the eligible unfinished words in the selected sweep. File order and oldest-retry priority no longer determine the sequence. Retry gaps, required stages and repetitions, and exclusion of completed words still apply. If no word is ready near the end of a sweep, choose randomly among the remaining unfinished words and shorten the gap. Immediate repeats are avoided when another eligible word exists.
+
+The unlock is checked before selecting a question and saved per vocabulary, progress profile, and grading policy. It stays enabled even if later mistakes raise the average. Pending questions, drafts, and the random sequence survive resume. Mock tests already use random order regardless of scores. Customize the unlock threshold with `random_order_max_score` (0–10, default 1.0; lower means better recall is needed).
+
 ### Learn menu
 
 | Selection | Words included |
@@ -336,6 +344,7 @@ These excerpts show the new learning records and an unfinished sweep; deck snaps
       "<grading-policy-id>": {
         "version": 1,
         "completed_sweeps": 2,
+        "random_order_unlocked": true,
         "words": {
           "cat": { "revision": 1, "score": 1.5, "full_sweeps": 2 },
           "eye": { "revision": 1, "score": 0.0, "full_sweeps": 2 }
@@ -351,6 +360,7 @@ These excerpts show the new learning records and an unfinished sweep; deck snaps
       "number": 3,
       "mode": "difficult_random",
       "warmup": false,
+      "random_order": true,
       "counted": false,
       "items": {
         "cat": {
@@ -468,6 +478,7 @@ Configuration (omitted fields retain their built-in defaults):
   "clean_sweep_decay": 0.5,
   "random_fraction": 0.2,
   "full_sweep_every": 5,
+  "random_order_max_score": 1.0,
   "inference": "text-expansion-v1",
   "case_sensitive": true,
   "sentence_case_sensitive": false,

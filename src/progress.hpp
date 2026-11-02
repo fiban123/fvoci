@@ -52,6 +52,7 @@ class Engine {
   void complete_sweep();
   std::string next_direction();
   void save_rng();
+  bool use_random_order();
   void sweep_outcome(const Task &, bool, int64_t);
 
   void schedule_outcome(J &, const Task &, bool, bool, int64_t);

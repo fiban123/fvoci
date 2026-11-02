@@ -397,6 +397,7 @@ void help() {
            "Multiple choice: j/k + Enter, or 1-9. Not written mastery.",
            "Learn selects full or difficulty-based sweeps, with optional random words.",
            "Retries use 3–10 other questions, never minutes or days.",
+           "After two full sweeps and average difficulty <= 1, question order becomes random.",
            "The first two full sweeps teach recognition then writing (adaptive mode)."});
 }
 void settings(J &c) {
